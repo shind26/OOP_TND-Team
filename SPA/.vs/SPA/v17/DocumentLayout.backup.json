@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\OOP_TND-Team\\SPA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DA5E3CB3-8C77-4785-A4C1-0EAFFB469B6F}|BLL_SPA\\BLL_SPA.csproj|d:\\oop_tnd-team\\spa\\bll_spa\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA5E3CB3-8C77-4785-A4C1-0EAFFB469B6F}|BLL_SPA\\BLL_SPA.csproj|solutionrelative:bll_spa\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486DE18E-D61F-4AFD-A53C-D2D6135DBC29}|DTO_SPA\\DTO_SPA.csproj|d:\\oop_tnd-team\\spa\\dto_spa\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486DE18E-D61F-4AFD-A53C-D2D6135DBC29}|DTO_SPA\\DTO_SPA.csproj|solutionrelative:dto_spa\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3259E394-6E53-4B6B-8E33-44E419B50308}|DAL_SPA\\DAL_SPA.csproj|d:\\oop_tnd-team\\spa\\dal_spa\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3259E394-6E53-4B6B-8E33-44E419B50308}|DAL_SPA\\DAL_SPA.csproj|solutionrelative:dal_spa\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4220F36E-5707-47EF-9050-F1AA3FC57751}|GUI_SPA\\GUI_SPA.csproj|d:\\oop_tnd-team\\spa\\gui_spa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4220F36E-5707-47EF-9050-F1AA3FC57751}|GUI_SPA\\GUI_SPA.csproj|solutionrelative:gui_spa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 276,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\OOP_TND-Team\\SPA\\BLL_SPA\\Class1.cs",
+              "RelativeDocumentMoniker": "BLL_SPA\\Class1.cs",
+              "ToolTip": "D:\\OOP_TND-Team\\SPA\\BLL_SPA\\Class1.cs",
+              "RelativeToolTip": "BLL_SPA\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T13:14:52.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\OOP_TND-Team\\SPA\\DTO_SPA\\Class1.cs",
+              "RelativeDocumentMoniker": "DTO_SPA\\Class1.cs",
+              "ToolTip": "D:\\OOP_TND-Team\\SPA\\DTO_SPA\\Class1.cs",
+              "RelativeToolTip": "DTO_SPA\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T13:14:43.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\OOP_TND-Team\\SPA\\DAL_SPA\\Class1.cs",
+              "RelativeDocumentMoniker": "DAL_SPA\\Class1.cs",
+              "ToolTip": "D:\\OOP_TND-Team\\SPA\\DAL_SPA\\Class1.cs",
+              "RelativeToolTip": "DAL_SPA\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T13:14:33.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\OOP_TND-Team\\SPA\\GUI_SPA\\Program.cs",
+              "RelativeDocumentMoniker": "GUI_SPA\\Program.cs",
+              "ToolTip": "D:\\OOP_TND-Team\\SPA\\GUI_SPA\\Program.cs",
+              "RelativeToolTip": "GUI_SPA\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T13:14:16.135Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
