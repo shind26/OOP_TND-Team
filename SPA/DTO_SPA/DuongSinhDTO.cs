@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DTO_SPA
 {
-    public class Class1
+    class DuongSinhDTO:DichVuDTO
     {
     }
 }

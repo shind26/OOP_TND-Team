@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BLL_SPA
+namespace DTO_SPA
 {
-    public class Class1
+    class ChamSocSucDepDTO:DichVuDTO
     {
-        
     }
 }

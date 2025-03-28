@@ -1,22 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\OOP_TND-Team\\SPA\\",
+  "WorkspaceRootPath": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DA5E3CB3-8C77-4785-A4C1-0EAFFB469B6F}|BLL_SPA\\BLL_SPA.csproj|d:\\oop_tnd-team\\spa\\bll_spa\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{486DE18E-D61F-4AFD-A53C-D2D6135DBC29}|DTO_SPA\\DTO_SPA.csproj|d:\\documents\\baitapoop\\baitapnhom\\spa\\dto_spa\\dichvudto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486DE18E-D61F-4AFD-A53C-D2D6135DBC29}|DTO_SPA\\DTO_SPA.csproj|solutionrelative:dto_spa\\dichvudto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3259E394-6E53-4B6B-8E33-44E419B50308}|DAL_SPA\\DAL_SPA.csproj|d:\\documents\\baitapoop\\baitapnhom\\spa\\dal_spa\\data\\dsdichvu.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3259E394-6E53-4B6B-8E33-44E419B50308}|DAL_SPA\\DAL_SPA.csproj|solutionrelative:dal_spa\\data\\dsdichvu.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4220F36E-5707-47EF-9050-F1AA3FC57751}|GUI_SPA\\GUI_SPA.csproj|D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\gui_spa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4220F36E-5707-47EF-9050-F1AA3FC57751}|GUI_SPA\\GUI_SPA.csproj|solutionrelative:gui_spa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA5E3CB3-8C77-4785-A4C1-0EAFFB469B6F}|BLL_SPA\\BLL_SPA.csproj|d:\\documents\\baitapoop\\baitapnhom\\spa\\bll_spa\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA5E3CB3-8C77-4785-A4C1-0EAFFB469B6F}|BLL_SPA\\BLL_SPA.csproj|solutionrelative:bll_spa\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{486DE18E-D61F-4AFD-A53C-D2D6135DBC29}|DTO_SPA\\DTO_SPA.csproj|d:\\oop_tnd-team\\spa\\dto_spa\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{486DE18E-D61F-4AFD-A53C-D2D6135DBC29}|DTO_SPA\\DTO_SPA.csproj|solutionrelative:dto_spa\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3259E394-6E53-4B6B-8E33-44E419B50308}|DAL_SPA\\DAL_SPA.csproj|d:\\documents\\baitapoop\\baitapnhom\\spa\\dal_spa\\data\\dskhachhang.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3259E394-6E53-4B6B-8E33-44E419B50308}|DAL_SPA\\DAL_SPA.csproj|solutionrelative:dal_spa\\data\\dskhachhang.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3259E394-6E53-4B6B-8E33-44E419B50308}|DAL_SPA\\DAL_SPA.csproj|d:\\oop_tnd-team\\spa\\dal_spa\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3259E394-6E53-4B6B-8E33-44E419B50308}|DAL_SPA\\DAL_SPA.csproj|D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\dal_spa\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3259E394-6E53-4B6B-8E33-44E419B50308}|DAL_SPA\\DAL_SPA.csproj|solutionrelative:dal_spa\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4220F36E-5707-47EF-9050-F1AA3FC57751}|GUI_SPA\\GUI_SPA.csproj|d:\\oop_tnd-team\\spa\\gui_spa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4220F36E-5707-47EF-9050-F1AA3FC57751}|GUI_SPA\\GUI_SPA.csproj|solutionrelative:gui_spa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{486DE18E-D61F-4AFD-A53C-D2D6135DBC29}|DTO_SPA\\DTO_SPA.csproj|D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\dto_spa\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486DE18E-D61F-4AFD-A53C-D2D6135DBC29}|DTO_SPA\\DTO_SPA.csproj|solutionrelative:dto_spa\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,41 +38,83 @@
       "DocumentGroups": [
         {
           "DockedWidth": 276,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DichVuDTO.cs",
+              "DocumentMoniker": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DTO_SPA\\DichVuDTO.cs",
+              "RelativeDocumentMoniker": "DTO_SPA\\DichVuDTO.cs",
+              "ToolTip": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DTO_SPA\\DichVuDTO.cs",
+              "RelativeToolTip": "DTO_SPA\\DichVuDTO.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T12:02:54.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DSKhachHang.xml",
+              "DocumentMoniker": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DAL_SPA\\Data\\DSKhachHang.xml",
+              "RelativeDocumentMoniker": "DAL_SPA\\Data\\DSKhachHang.xml",
+              "ToolTip": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DAL_SPA\\Data\\DSKhachHang.xml",
+              "RelativeToolTip": "DAL_SPA\\Data\\DSKhachHang.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-03-28T08:40:59.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DSDichVu.xml",
+              "DocumentMoniker": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DAL_SPA\\Data\\DSDichVu.xml",
+              "RelativeDocumentMoniker": "DAL_SPA\\Data\\DSDichVu.xml",
+              "ToolTip": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DAL_SPA\\Data\\DSDichVu.xml",
+              "RelativeToolTip": "DAL_SPA\\Data\\DSDichVu.xml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-03-28T08:09:40.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\OOP_TND-Team\\SPA\\BLL_SPA\\Class1.cs",
+              "DocumentMoniker": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\BLL_SPA\\Class1.cs",
               "RelativeDocumentMoniker": "BLL_SPA\\Class1.cs",
-              "ToolTip": "D:\\OOP_TND-Team\\SPA\\BLL_SPA\\Class1.cs",
+              "ToolTip": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\BLL_SPA\\Class1.cs",
               "RelativeToolTip": "BLL_SPA\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T13:14:52.872Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\OOP_TND-Team\\SPA\\DTO_SPA\\Class1.cs",
+              "DocumentMoniker": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DTO_SPA\\Class1.cs",
               "RelativeDocumentMoniker": "DTO_SPA\\Class1.cs",
-              "ToolTip": "D:\\OOP_TND-Team\\SPA\\DTO_SPA\\Class1.cs",
+              "ToolTip": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DTO_SPA\\Class1.cs",
               "RelativeToolTip": "DTO_SPA\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T13:14:43.474Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T13:14:43.474Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\OOP_TND-Team\\SPA\\DAL_SPA\\Class1.cs",
+              "DocumentMoniker": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DAL_SPA\\Class1.cs",
               "RelativeDocumentMoniker": "DAL_SPA\\Class1.cs",
-              "ToolTip": "D:\\OOP_TND-Team\\SPA\\DAL_SPA\\Class1.cs",
+              "ToolTip": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DAL_SPA\\Class1.cs",
               "RelativeToolTip": "DAL_SPA\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -69,11 +123,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\OOP_TND-Team\\SPA\\GUI_SPA\\Program.cs",
+              "DocumentMoniker": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\GUI_SPA\\Program.cs",
               "RelativeDocumentMoniker": "GUI_SPA\\Program.cs",
-              "ToolTip": "D:\\OOP_TND-Team\\SPA\\GUI_SPA\\Program.cs",
+              "ToolTip": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\GUI_SPA\\Program.cs",
               "RelativeToolTip": "GUI_SPA\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
