@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{486DE18E-D61F-4AFD-A53C-D2D6135DBC29}|DTO_SPA\\DTO_SPA.csproj|solutionrelative:dto_spa\\dichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3259E394-6E53-4B6B-8E33-44E419B50308}|DAL_SPA\\DAL_SPA.csproj|d:\\final-prj_oop\\oop_tnd-team\\spa\\dal_spa\\dichvudal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3259E394-6E53-4B6B-8E33-44E419B50308}|DAL_SPA\\DAL_SPA.csproj|solutionrelative:dal_spa\\dichvudal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{486DE18E-D61F-4AFD-A53C-D2D6135DBC29}|DTO_SPA\\DTO_SPA.csproj|D:\\final-prj_OOP\\OOP_TND-Team\\SPA\\dto_spa\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{486DE18E-D61F-4AFD-A53C-D2D6135DBC29}|DTO_SPA\\DTO_SPA.csproj|solutionrelative:dto_spa\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,16 +21,12 @@
     {
       "AbsoluteMoniker": "D:0:0:{DA5E3CB3-8C77-4785-A4C1-0EAFFB469B6F}|BLL_SPA\\BLL_SPA.csproj|D:\\final-prj_OOP\\OOP_TND-Team\\SPA\\bll_spa\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA5E3CB3-8C77-4785-A4C1-0EAFFB469B6F}|BLL_SPA\\BLL_SPA.csproj|solutionrelative:bll_spa\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3259E394-6E53-4B6B-8E33-44E419B50308}|DAL_SPA\\DAL_SPA.csproj|D:\\final-prj_OOP\\OOP_TND-Team\\SPA\\dal_spa\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3259E394-6E53-4B6B-8E33-44E419B50308}|DAL_SPA\\DAL_SPA.csproj|solutionrelative:dal_spa\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 100,
       "DocumentGroups": [
         {
           "DockedWidth": 276,
@@ -40,14 +40,14 @@
               "RelativeDocumentMoniker": "DTO_SPA\\DichVu.cs",
               "ToolTip": "D:\\final-prj_OOP\\OOP_TND-Team\\SPA\\DTO_SPA\\DichVu.cs",
               "RelativeToolTip": "DTO_SPA\\DichVu.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAcwD8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAUwHkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-29T03:11:30.529Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "KhachHang.cs",
               "DocumentMoniker": "D:\\final-prj_OOP\\OOP_TND-Team\\SPA\\DTO_SPA\\KhachHang.cs",
               "RelativeDocumentMoniker": "DTO_SPA\\KhachHang.cs",
@@ -55,11 +55,12 @@
               "RelativeToolTip": "DTO_SPA\\KhachHang.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T08:24:07.32Z"
+              "WhenOpened": "2025-03-28T08:24:07.32Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\final-prj_OOP\\OOP_TND-Team\\SPA\\BLL_SPA\\Class1.cs",
               "RelativeDocumentMoniker": "BLL_SPA\\Class1.cs",
@@ -71,19 +72,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\final-prj_OOP\\OOP_TND-Team\\SPA\\DAL_SPA\\Class1.cs",
-              "RelativeDocumentMoniker": "DAL_SPA\\Class1.cs",
-              "ToolTip": "D:\\final-prj_OOP\\OOP_TND-Team\\SPA\\DAL_SPA\\Class1.cs",
-              "RelativeToolTip": "DAL_SPA\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "DichVuDAL.cs",
+              "DocumentMoniker": "D:\\final-prj_OOP\\OOP_TND-Team\\SPA\\DAL_SPA\\DichVuDAL.cs",
+              "RelativeDocumentMoniker": "DAL_SPA\\DichVuDAL.cs",
+              "ToolTip": "D:\\final-prj_OOP\\OOP_TND-Team\\SPA\\DAL_SPA\\DichVuDAL.cs",
+              "RelativeToolTip": "DAL_SPA\\DichVuDAL.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACYAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T13:14:33.349Z"
+              "WhenOpened": "2025-03-27T13:14:33.349Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\final-prj_OOP\\OOP_TND-Team\\SPA\\GUI_SPA\\Program.cs",
               "RelativeDocumentMoniker": "GUI_SPA\\Program.cs",
