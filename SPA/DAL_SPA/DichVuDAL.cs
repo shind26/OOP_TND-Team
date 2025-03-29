@@ -19,25 +19,46 @@ namespace DAL_SPA
             ListDichVu = new List<DichVuDTO>();
         }
 
-        public void docFile(string path)
+        public List<DichVuDTO> docFile(string path)
         {
             XmlDocument document = new XmlDocument();
+            List<DichVuDTO> listDichVu = new List<DichVuDTO>();
             document.Load(path);
             XmlNodeList nodeList = document.SelectNodes("DSDichVu/DichVu");
             foreach (XmlNode node in nodeList)
             {
+                
+                string maDichVu = node["MaDichVu"].InnerText;
+                string tenDichVu = node["TenDichVu"].InnerText;
+                string loaiDichVu = node["LoaiDichVu"].InnerText;
+                double giaThanh = double.Parse(node["GiaThanh"].InnerText);
                 DichVuDTO dv = new DichVuDTO();
-                dv.MaDichVu = node["MaDichVu"].InnerText;
-                dv.TenDichVu = node["TenDichVu"].InnerText;
-                dv.LoaiDichVu = node["LoaiDichVu"].InnerText;
-                XmlNodeList listDVDiKem = document.SelectNodes("DSDichVu/DichVu/DSDichVuDiKem/DichVuDiKem");
+                switch (loaiDichVu)
+                {
+                    case "Chăm sóc sức đẹp":
+                        dv = new ChamSocSucDepDTO(maDichVu, tenDichVu, giaThanh);
+                        break;
+                    case "Chăm sóc Body":
+                        dv = new ChamSocBodyDTO(maDichVu, tenDichVu, giaThanh);
+                        break;
+                    case "Dưỡng sinh":
+                        dv = new DuongSinhDTO(maDichVu, tenDichVu, giaThanh);
+                        break;
+                    default:
+                        Console.WriteLine("Lỗi");
+                        break;
+                }
+                XmlNodeList listDVDiKem = node.SelectNodes("DSDichVuDiKem/DichVuDiKem");
                 foreach (XmlNode xmlNode in listDVDiKem)
                 {
                     DichVuDiKemDTO dvdk = new DichVuDiKemDTO();
-                    dvdk.MaDichVu = node["MaDichVu"].InnerText;
-                    dvdk.TenDichVu = node["TenDichVu"].InnerText;
+                    dvdk.MaDichVu = xmlNode["MaDichVu"].InnerText;
+                    dvdk.TenDichVu = xmlNode["TenDichVu"].InnerText;
+                    dv.DsDVDiKem.Add(dvdk);
                 }
+                    listDichVu.Add(dv);
             }
+            return listDichVu;
         }
 
     }

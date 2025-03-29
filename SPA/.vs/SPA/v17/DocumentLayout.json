@@ -3,48 +3,52 @@
   "WorkspaceRootPath": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{486DE18E-D61F-4AFD-A53C-D2D6135DBC29}|DTO_SPA\\DTO_SPA.csproj|d:\\documents\\baitapoop\\baitapnhom\\spa\\dto_spa\\dichvudto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{486DE18E-D61F-4AFD-A53C-D2D6135DBC29}|DTO_SPA\\DTO_SPA.csproj|solutionrelative:dto_spa\\dichvudto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{486DE18E-D61F-4AFD-A53C-D2D6135DBC29}|DTO_SPA\\DTO_SPA.csproj|d:\\documents\\baitapoop\\baitapnhom\\spa\\dto_spa\\dichvudikemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{486DE18E-D61F-4AFD-A53C-D2D6135DBC29}|DTO_SPA\\DTO_SPA.csproj|solutionrelative:dto_spa\\dichvudikemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{486DE18E-D61F-4AFD-A53C-D2D6135DBC29}|DTO_SPA\\DTO_SPA.csproj|D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\dto_spa\\chamsocsucdepdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{486DE18E-D61F-4AFD-A53C-D2D6135DBC29}|DTO_SPA\\DTO_SPA.csproj|solutionrelative:dto_spa\\chamsocsucdepdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{486DE18E-D61F-4AFD-A53C-D2D6135DBC29}|DTO_SPA\\DTO_SPA.csproj|D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\dto_spa\\chamsocbodydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{486DE18E-D61F-4AFD-A53C-D2D6135DBC29}|DTO_SPA\\DTO_SPA.csproj|solutionrelative:dto_spa\\chamsocbodydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3259E394-6E53-4B6B-8E33-44E419B50308}|DAL_SPA\\DAL_SPA.csproj|D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\dal_spa\\dichvudal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3259E394-6E53-4B6B-8E33-44E419B50308}|DAL_SPA\\DAL_SPA.csproj|solutionrelative:dal_spa\\dichvudal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{486DE18E-D61F-4AFD-A53C-D2D6135DBC29}|DTO_SPA\\DTO_SPA.csproj|D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\dto_spa\\duongsinhdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{486DE18E-D61F-4AFD-A53C-D2D6135DBC29}|DTO_SPA\\DTO_SPA.csproj|solutionrelative:dto_spa\\duongsinhdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{486DE18E-D61F-4AFD-A53C-D2D6135DBC29}|DTO_SPA\\DTO_SPA.csproj|d:\\documents\\baitapoop\\baitapnhom\\spa\\dto_spa\\loaidichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{486DE18E-D61F-4AFD-A53C-D2D6135DBC29}|DTO_SPA\\DTO_SPA.csproj|solutionrelative:dto_spa\\loaidichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DA5E3CB3-8C77-4785-A4C1-0EAFFB469B6F}|BLL_SPA\\BLL_SPA.csproj|D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\bll_spa\\dichvubll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA5E3CB3-8C77-4785-A4C1-0EAFFB469B6F}|BLL_SPA\\BLL_SPA.csproj|solutionrelative:bll_spa\\dichvubll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486DE18E-D61F-4AFD-A53C-D2D6135DBC29}|DTO_SPA\\DTO_SPA.csproj|D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\dto_spa\\dichvudto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486DE18E-D61F-4AFD-A53C-D2D6135DBC29}|DTO_SPA\\DTO_SPA.csproj|solutionrelative:dto_spa\\dichvudto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486DE18E-D61F-4AFD-A53C-D2D6135DBC29}|DTO_SPA\\DTO_SPA.csproj|D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\dto_spa\\chamsocbodydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486DE18E-D61F-4AFD-A53C-D2D6135DBC29}|DTO_SPA\\DTO_SPA.csproj|solutionrelative:dto_spa\\chamsocbodydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3259E394-6E53-4B6B-8E33-44E419B50308}|DAL_SPA\\DAL_SPA.csproj|D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DAL_SPA\\Data\\DSDichVu.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3259E394-6E53-4B6B-8E33-44E419B50308}|DAL_SPA\\DAL_SPA.csproj|solutionrelative:DAL_SPA\\Data\\DSDichVu.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3259E394-6E53-4B6B-8E33-44E419B50308}|DAL_SPA\\DAL_SPA.csproj|D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\dal_spa\\data\\dskhachhang.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{3259E394-6E53-4B6B-8E33-44E419B50308}|DAL_SPA\\DAL_SPA.csproj|solutionrelative:dal_spa\\data\\dskhachhang.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3259E394-6E53-4B6B-8E33-44E419B50308}|DAL_SPA\\DAL_SPA.csproj|D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\dal_spa\\data\\dsdichvu.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{3259E394-6E53-4B6B-8E33-44E419B50308}|DAL_SPA\\DAL_SPA.csproj|solutionrelative:dal_spa\\data\\dsdichvu.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA5E3CB3-8C77-4785-A4C1-0EAFFB469B6F}|BLL_SPA\\BLL_SPA.csproj|D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\bll_spa\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA5E3CB3-8C77-4785-A4C1-0EAFFB469B6F}|BLL_SPA\\BLL_SPA.csproj|solutionrelative:bll_spa\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4220F36E-5707-47EF-9050-F1AA3FC57751}|GUI_SPA\\GUI_SPA.csproj|d:\\documents\\baitapoop\\baitapnhom\\spa\\gui_spa\\dichvugui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4220F36E-5707-47EF-9050-F1AA3FC57751}|GUI_SPA\\GUI_SPA.csproj|solutionrelative:gui_spa\\dichvugui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4220F36E-5707-47EF-9050-F1AA3FC57751}|GUI_SPA\\GUI_SPA.csproj|D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\gui_spa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4220F36E-5707-47EF-9050-F1AA3FC57751}|GUI_SPA\\GUI_SPA.csproj|solutionrelative:gui_spa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3259E394-6E53-4B6B-8E33-44E419B50308}|DAL_SPA\\DAL_SPA.csproj|D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\dal_spa\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3259E394-6E53-4B6B-8E33-44E419B50308}|DAL_SPA\\DAL_SPA.csproj|solutionrelative:dal_spa\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{486DE18E-D61F-4AFD-A53C-D2D6135DBC29}|DTO_SPA\\DTO_SPA.csproj|D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\dto_spa\\dichvudikemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486DE18E-D61F-4AFD-A53C-D2D6135DBC29}|DTO_SPA\\DTO_SPA.csproj|solutionrelative:dto_spa\\dichvudikemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486DE18E-D61F-4AFD-A53C-D2D6135DBC29}|DTO_SPA\\DTO_SPA.csproj|d:\\documents\\baitapoop\\baitapnhom\\spa\\dto_spa\\chamsocsucdepdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486DE18E-D61F-4AFD-A53C-D2D6135DBC29}|DTO_SPA\\DTO_SPA.csproj|solutionrelative:dto_spa\\chamsocsucdepdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DAL_SPA\\SPA.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DAL_SPA\\SPA.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,88 +58,131 @@
       "DocumentGroups": [
         {
           "DockedWidth": 276,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoaiDichVu.cs",
-              "DocumentMoniker": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DTO_SPA\\LoaiDichVu.cs",
-              "RelativeDocumentMoniker": "DTO_SPA\\LoaiDichVu.cs",
-              "ToolTip": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DTO_SPA\\LoaiDichVu.cs",
-              "RelativeToolTip": "DTO_SPA\\LoaiDichVu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "DichVuDAL.cs",
+              "DocumentMoniker": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DAL_SPA\\DichVuDAL.cs",
+              "RelativeDocumentMoniker": "DAL_SPA\\DichVuDAL.cs",
+              "ToolTip": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DAL_SPA\\DichVuDAL.cs",
+              "RelativeToolTip": "DAL_SPA\\DichVuDAL.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAqwDIAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T15:13:37.654Z",
+              "WhenOpened": "2025-03-29T15:48:42.698Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "DSDichVu.xml",
+              "DocumentMoniker": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DAL_SPA\\Data\\DSDichVu.xml",
+              "RelativeDocumentMoniker": "DAL_SPA\\Data\\DSDichVu.xml",
+              "ToolTip": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DAL_SPA\\Data\\DSDichVu.xml",
+              "RelativeToolTip": "DAL_SPA\\Data\\DSDichVu.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-03-28T08:09:40.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "DichVuDiKemDTO.cs",
               "DocumentMoniker": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DTO_SPA\\DichVuDiKemDTO.cs",
               "RelativeDocumentMoniker": "DTO_SPA\\DichVuDiKemDTO.cs",
               "ToolTip": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DTO_SPA\\DichVuDiKemDTO.cs",
               "RelativeToolTip": "DTO_SPA\\DichVuDiKemDTO.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAgwDoAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwA0AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T15:00:21.708Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DuongSinhDTO.cs",
-              "DocumentMoniker": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DTO_SPA\\DuongSinhDTO.cs",
-              "RelativeDocumentMoniker": "DTO_SPA\\DuongSinhDTO.cs",
-              "ToolTip": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DTO_SPA\\DuongSinhDTO.cs",
-              "RelativeToolTip": "DTO_SPA\\DuongSinhDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T12:32:23.869Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ChamSocBodyDTO.cs",
-              "DocumentMoniker": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DTO_SPA\\ChamSocBodyDTO.cs",
-              "RelativeDocumentMoniker": "DTO_SPA\\ChamSocBodyDTO.cs",
-              "ToolTip": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DTO_SPA\\ChamSocBodyDTO.cs",
-              "RelativeToolTip": "DTO_SPA\\ChamSocBodyDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T12:32:13.562Z",
+              "WhenOpened": "2025-03-29T15:42:57.264Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ChamSocSucDepDTO.cs",
-              "DocumentMoniker": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DTO_SPA\\ChamSocSucDepDTO.cs",
-              "RelativeDocumentMoniker": "DTO_SPA\\ChamSocSucDepDTO.cs",
-              "ToolTip": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DTO_SPA\\ChamSocSucDepDTO.cs",
-              "RelativeToolTip": "DTO_SPA\\ChamSocSucDepDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Title": "DichVuBLL.cs",
+              "DocumentMoniker": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\BLL_SPA\\DichVuBLL.cs",
+              "RelativeDocumentMoniker": "BLL_SPA\\DichVuBLL.cs",
+              "ToolTip": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\BLL_SPA\\DichVuBLL.cs",
+              "RelativeToolTip": "BLL_SPA\\DichVuBLL.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T12:31:58.028Z",
+              "WhenOpened": "2025-03-27T13:14:52.872Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "DichVuDTO.cs",
               "DocumentMoniker": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DTO_SPA\\DichVuDTO.cs",
               "RelativeDocumentMoniker": "DTO_SPA\\DichVuDTO.cs",
               "ToolTip": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DTO_SPA\\DichVuDTO.cs",
               "RelativeToolTip": "DTO_SPA\\DichVuDTO.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAArwHcAAABuAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAewDsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T12:02:54.716Z",
+              "WhenOpened": "2025-03-29T15:49:47.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DichVuGUI.cs",
+              "DocumentMoniker": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\GUI_SPA\\DichVuGUI.cs",
+              "RelativeDocumentMoniker": "GUI_SPA\\DichVuGUI.cs",
+              "ToolTip": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\GUI_SPA\\DichVuGUI.cs",
+              "RelativeToolTip": "GUI_SPA\\DichVuGUI.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T17:50:56.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChamSocBodyDTO.cs",
+              "DocumentMoniker": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DTO_SPA\\ChamSocBodyDTO.cs",
+              "RelativeDocumentMoniker": "DTO_SPA\\ChamSocBodyDTO.cs",
+              "ToolTip": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DTO_SPA\\ChamSocBodyDTO.cs",
+              "RelativeToolTip": "DTO_SPA\\ChamSocBodyDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T15:53:00.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DuongSinhDTO.cs",
+              "DocumentMoniker": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DTO_SPA\\DuongSinhDTO.cs",
+              "RelativeDocumentMoniker": "DTO_SPA\\DuongSinhDTO.cs",
+              "ToolTip": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DTO_SPA\\DuongSinhDTO.cs",
+              "RelativeToolTip": "DTO_SPA\\DuongSinhDTO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T15:50:01.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\GUI_SPA\\Program.cs",
+              "RelativeDocumentMoniker": "GUI_SPA\\Program.cs",
+              "ToolTip": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\GUI_SPA\\Program.cs",
+              "RelativeToolTip": "GUI_SPA\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T15:51:03.285Z",
               "EditorCaption": ""
             },
             {
@@ -146,59 +193,35 @@
               "RelativeDocumentMoniker": "DAL_SPA\\Data\\DSKhachHang.xml",
               "ToolTip": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DAL_SPA\\Data\\DSKhachHang.xml",
               "RelativeToolTip": "DAL_SPA\\Data\\DSKhachHang.xml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2025-03-28T08:40:59.797Z",
+              "WhenOpened": "2025-03-29T15:43:28.928Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DSDichVu.xml",
-              "DocumentMoniker": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DAL_SPA\\Data\\DSDichVu.xml",
-              "RelativeDocumentMoniker": "DAL_SPA\\Data\\DSDichVu.xml",
-              "ToolTip": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DAL_SPA\\Data\\DSDichVu.xml",
-              "RelativeToolTip": "DAL_SPA\\Data\\DSDichVu.xml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAqwBsAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2025-03-28T08:09:40.941Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\BLL_SPA\\Class1.cs",
-              "RelativeDocumentMoniker": "BLL_SPA\\Class1.cs",
-              "ToolTip": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\BLL_SPA\\Class1.cs",
-              "RelativeToolTip": "BLL_SPA\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T13:14:52.872Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DAL_SPA\\Class1.cs",
-              "RelativeDocumentMoniker": "DAL_SPA\\Class1.cs",
-              "ToolTip": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DAL_SPA\\Class1.cs",
-              "RelativeToolTip": "DAL_SPA\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ChamSocSucDepDTO.cs",
+              "DocumentMoniker": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DTO_SPA\\ChamSocSucDepDTO.cs",
+              "RelativeDocumentMoniker": "DTO_SPA\\ChamSocSucDepDTO.cs",
+              "ToolTip": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DTO_SPA\\ChamSocSucDepDTO.cs",
+              "RelativeToolTip": "DTO_SPA\\ChamSocSucDepDTO.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAiwAoAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T13:14:33.349Z"
+              "WhenOpened": "2025-03-29T15:53:05.683Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\GUI_SPA\\Program.cs",
-              "RelativeDocumentMoniker": "GUI_SPA\\Program.cs",
-              "ToolTip": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\GUI_SPA\\Program.cs",
-              "RelativeToolTip": "GUI_SPA\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T13:14:16.135Z"
+              "DocumentIndex": 11,
+              "Title": "SPA.xml",
+              "DocumentMoniker": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DAL_SPA\\SPA.xml",
+              "RelativeDocumentMoniker": "DAL_SPA\\SPA.xml",
+              "ToolTip": "D:\\Documents\\BaiTapOOP\\BaiTapNhom\\SPA\\DAL_SPA\\SPA.xml",
+              "RelativeToolTip": "DAL_SPA\\SPA.xml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAmwBwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-03-29T15:04:02.757Z"
             }
           ]
         }

@@ -14,6 +14,7 @@ namespace DTO_SPA
         private string tenDichVu;
         private string loaiDichVu;
         private double giaThanh;
+        private List<DichVuDiKemDTO> dsDVDiKem;
     
         public string MaDichVu
         {
@@ -55,16 +56,19 @@ namespace DTO_SPA
             set
             {
                 if ((!(string.IsNullOrEmpty(value)) && string.IsNullOrWhiteSpace(value)) && 
-                    (value == "Chăm sóc sức đẹp" || value == "Chăm sóc body" || value == "Dưỡng sinh"))
+                    (value == "Chăm sóc sức đẹp" || value == "Chăm sóc Body" || value == "Dưỡng sinh"))
                     LoaiDichVu = value;
                 else loaiDichVu = "Chăm sóc sức đẹp";
             }
         }
+
+        public List<DichVuDiKemDTO> DsDVDiKem { get => dsDVDiKem; set => dsDVDiKem = value; }
         #endregion
 
         #region Methods
         public DichVuDTO()
         {
+            DsDVDiKem = new List<DichVuDiKemDTO>();
         }
 
         public DichVuDTO(string madv, string tendv, string loaidv, double giathanh)
@@ -73,6 +77,7 @@ namespace DTO_SPA
             TenDichVu = tendv;
             LoaiDichVu = loaidv;
             GiaThanh = giathanh;
+            DsDVDiKem = new List<DichVuDiKemDTO>();
         }
 
         public DichVuDTO(DichVuDTO dv)
@@ -81,6 +86,7 @@ namespace DTO_SPA
             TenDichVu = dv.TenDichVu;
             LoaiDichVu = dv.LoaiDichVu;
             GiaThanh = dv.GiaThanh;
+            DsDVDiKem = dv.DsDVDiKem;
         }
 
         public virtual void nhapDichVu()
@@ -100,7 +106,7 @@ namespace DTO_SPA
                 }
                 else if (lc == 2)
                 {
-                    LoaiDichVu = "Chăm sóc body";
+                    LoaiDichVu = "Chăm sóc Body";
                 }
                 else if (lc == 3)
                 {
@@ -111,10 +117,27 @@ namespace DTO_SPA
             } while (lc < 1 || lc > 3);
             Console.Write("Nhập giá thành: ");
             GiaThanh = double.Parse(Console.ReadLine());
+            Console.Write("Nhập vào số lượng dịch vụ đi kèm");
+            int soLuong = int.Parse(Console.ReadLine());
+            for (int i = 0; i < soLuong; i++)
+            {
+                DichVuDiKemDTO dvdk = new DichVuDiKemDTO();
+                Console.Write("Nhập mã dịch vụ đi kèm: ");
+                dvdk.MaDichVu = Console.ReadLine();
+                Console.Write("Nhập tên dịch vụ đi kèm: ");
+                dvdk.TenDichVu = Console.ReadLine();
+                DsDVDiKem.Add(dvdk);
+            }
+
         }
-        public virtual void xuatDichVu()
+        public void xuatDichVu()
         {
             Console.WriteLine($"Mã dịch vụ: {MaDichVu}\nTên dịch vụ: {TenDichVu}\nLoại dịch vụ: {LoaiDichVu}\nGiá thành: {GiaThanh}");
+            Console.WriteLine("DỊCH VỤ ĐI KÈM");
+            foreach(DichVuDiKemDTO d in DsDVDiKem) {
+                Console.WriteLine($"Dịch vụ đi kèm thứ {(DsDVDiKem.IndexOf(d) + 1)}"); 
+                Console.WriteLine($"Mã dịch vụ đi kèm: {d.MaDichVu}\nTên dịch vụ đi kèm: {d.TenDichVu}");
+            }
         }
         #endregion
     }

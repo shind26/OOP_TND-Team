@@ -41,12 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="DichVuDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Data\DSDichVu.xml" />
     <Content Include="Data\DSKhachHang.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DTO_SPA\DTO_SPA.csproj">
+      <Project>{486de18e-d61f-4afd-a53c-d2d6135dbc29}</Project>
+      <Name>DTO_SPA</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

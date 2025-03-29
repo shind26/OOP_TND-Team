@@ -9,12 +9,10 @@
 			<DichVuDiKem>
 				<MaDichVu>DVDK001</MaDichVu>
 				<TenDichVu>Đắp mặt nạ</TenDichVu>
-				<GiaThanh>60000</GiaThanh>
 			</DichVuDiKem>
 			<DichVuDiKem>
 				<MaDichVu>DVDK002</MaDichVu>
 				<TenDichVu>Xông hơi bằng tinh dầu</TenDichVu>
-				<GiaThanh>150000</GiaThanh>
 			</DichVuDiKem>
 		</DSDichVuDiKem>
 	</DichVu>
@@ -23,33 +21,29 @@
 		<TenDichVu>Massage thư giãn</TenDichVu>
 		<LoaiDichVu>Chăm sóc Body</LoaiDichVu>
 		<GiaThanh>200000</GiaThanh>
-		<DanhSachDichVuDiKem>
+		<DSDichVuDiKem>
 			<DichVuDiKem>
 				<MaDichVu>DVDK002</MaDichVu>
 				<TenDichVu>Tẩy tế bào chết</TenDichVu>
-				<GiaThanh>200000</GiaThanh>
 			</DichVuDiKem>
 			<DichVuDiKem>
 				<MaDichVu>DVDK003</MaDichVu>
 				<TenDichVu>Xông hơi</TenDichVu>
-				<GiaThanh>150000</GiaThanh>
 			</DichVuDiKem>
-		</DanhSachDichVuDiKem>
+		</DSDichVuDiKem>
 	</DichVu>
 		<MaDichVu>DV003</MaDichVu>
 		<TenDichVu>Liệu pháp dưỡng sinh</TenDichVu>
 		<LoaiDichVu>Dưỡng sinh</LoaiDichVu>
 		<GiaThanh>400000</GiaThanh>
-		<DanhSachDichVuDiKem>
+	<DSDichVuDiKem>
 			<DichVuDiKem>
 				<MaDichVu>DVDK004</MaDichVu>
 				<TenDichVu>Trị liệu đông y</TenDichVu>
-				<GiaThanh>350000</GiaThanh>
 			</DichVuDiKem>
 			<DichVuDiKem>
 				<MaDichVu>DVDK005</MaDichVu>
 				<TenDichVu>Bấm huyệt trị liệu</TenDichVu>
-				<GiaThanh>150000</GiaThanh>
 			</DichVuDiKem>
-		</DanhSachDichVuDiKem>
+		</DSDichVuDiKem>
 </DSDichVu>

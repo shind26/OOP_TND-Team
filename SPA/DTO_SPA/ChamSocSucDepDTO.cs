@@ -8,6 +8,14 @@ namespace DTO_SPA
 {
     public class ChamSocSucDepDTO:DichVuDTO
     {
-        List<DichVuDiKemDTO> dichVuDiKem;
+        public ChamSocSucDepDTO():base()
+        {
+            
+        }
+
+        public ChamSocSucDepDTO(string ma, string ten, double gia):base(ma, ten, "Chăm sóc sức đẹp", gia) 
+        {
+            
+        }
     }
 }

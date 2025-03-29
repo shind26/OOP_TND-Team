@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using BLL_SPA;
 using DTO_SPA;
 
 namespace GUI_SPA
@@ -11,9 +12,8 @@ namespace GUI_SPA
     {
         static void Main(string[] args)
         {
-            DichVuDTO dichVu = new DuongSinhDTO();
-            dichVu.nhapDichVu();
-            dichVu.xuatDichVu();
+            DichVuGUI dichVuGUI = new DichVuGUI();
+            dichVuGUI.showList();
         }
     }
 }
