@@ -49,5 +49,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL_SPA\BLL_SPA.csproj">
+      <Project>{da5e3cb3-8c77-4785-a4c1-0eaffb469b6f}</Project>
+      <Name>BLL_SPA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO_SPA\DTO_SPA.csproj">
+      <Project>{486de18e-d61f-4afd-a53c-d2d6135dbc29}</Project>
+      <Name>DTO_SPA</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

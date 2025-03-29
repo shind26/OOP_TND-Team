@@ -1,0 +1,6 @@
+D:\final-prj_OOP\OOP_TND-Team\SPA\DTO_SPA\bin\Debug\DTO_SPA.dll
+D:\final-prj_OOP\OOP_TND-Team\SPA\DTO_SPA\bin\Debug\DTO_SPA.pdb
+D:\final-prj_OOP\OOP_TND-Team\SPA\DTO_SPA\obj\Debug\DTO_SPA.csproj.AssemblyReference.cache
+D:\final-prj_OOP\OOP_TND-Team\SPA\DTO_SPA\obj\Debug\DTO_SPA.csproj.CoreCompileInputs.cache
+D:\final-prj_OOP\OOP_TND-Team\SPA\DTO_SPA\obj\Debug\DTO_SPA.dll
+D:\final-prj_OOP\OOP_TND-Team\SPA\DTO_SPA\obj\Debug\DTO_SPA.pdb
