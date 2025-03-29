@@ -6,18 +6,16 @@
 		<LoaiDichVu>Chăm sóc sức đẹp</LoaiDichVu>
 		<GiaThanh>200000</GiaThanh>
 		<DSDichVuDiKem>
-			<DichVu>
+			<DichVuDiKem>
 				<MaDichVu>DVDK001</MaDichVu>
 				<TenDichVu>Đắp mặt nạ</TenDichVu>
-				<LoaiDichVu>Chăm sóc sức đẹp</LoaiDichVu>
 				<GiaThanh>60000</GiaThanh>
-			</DichVu>
-			<DichVu>
+			</DichVuDiKem>
+			<DichVuDiKem>
 				<MaDichVu>DVDK002</MaDichVu>
 				<TenDichVu>Xông hơi bằng tinh dầu</TenDichVu>
-				<LoaiDichVu>Chăm sóc sức đẹp</LoaiDichVu>
 				<GiaThanh>150000</GiaThanh>
-			</DichVu>
+			</DichVuDiKem>
 		</DSDichVuDiKem>
 	</DichVu>
 	<DichVu>
@@ -26,18 +24,16 @@
 		<LoaiDichVu>Chăm sóc Body</LoaiDichVu>
 		<GiaThanh>200000</GiaThanh>
 		<DanhSachDichVuDiKem>
-			<DichVu>
+			<DichVuDiKem>
 				<MaDichVu>DVDK002</MaDichVu>
 				<TenDichVu>Tẩy tế bào chết</TenDichVu>
-				<LoaiDichVu>Chăm sóc body</LoaiDichVu>
 				<GiaThanh>200000</GiaThanh>
-			</DichVu>
-			<DichVu>
+			</DichVuDiKem>
+			<DichVuDiKem>
 				<MaDichVu>DVDK003</MaDichVu>
 				<TenDichVu>Xông hơi</TenDichVu>
-				<LoaiDichVu>Chăm sóc body</LoaiDichVu>
 				<GiaThanh>150000</GiaThanh>
-			</DichVu>
+			</DichVuDiKem>
 		</DanhSachDichVuDiKem>
 	</DichVu>
 		<MaDichVu>DV003</MaDichVu>
@@ -45,17 +41,15 @@
 		<LoaiDichVu>Dưỡng sinh</LoaiDichVu>
 		<GiaThanh>400000</GiaThanh>
 		<DanhSachDichVuDiKem>
-			<DichVu>
+			<DichVuDiKem>
 				<MaDichVu>DVDK004</MaDichVu>
 				<TenDichVu>Trị liệu đông y</TenDichVu>
-				<LoaiDichVu>Dưỡng sinh</LoaiDichVu>
 				<GiaThanh>350000</GiaThanh>
-			</DichVu>
-			<DichVu>
+			</DichVuDiKem>
+			<DichVuDiKem>
 				<MaDichVu>DVDK005</MaDichVu>
 				<TenDichVu>Bấm huyệt trị liệu</TenDichVu>
-				<LoaiDichVu>Dưỡng Sinh</LoaiDichVu>
 				<GiaThanh>150000</GiaThanh>
-			</DichVu>
+			</DichVuDiKem>
 		</DanhSachDichVuDiKem>
 </DSDichVu>
