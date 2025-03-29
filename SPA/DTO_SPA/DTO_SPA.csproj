@@ -43,7 +43,6 @@
   <ItemGroup>
     <Compile Include="ChamSocBodyDTO.cs" />
     <Compile Include="ChamSocSucDepDTO.cs" />
-    <Compile Include="LoaiDichVu.cs" />
     <Compile Include="DichVuDiKemDTO.cs" />
     <Compile Include="DichVuDTO.cs" />
     <Compile Include="DuongSinhDTO.cs" />

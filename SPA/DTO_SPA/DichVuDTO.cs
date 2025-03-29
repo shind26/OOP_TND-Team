@@ -1,20 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace DTO_SPA
 {
-
-    class DichVuDTO
+    public class DichVuDTO
     {
         #region Attributes
         private string maDichVu;
         private string tenDichVu;
-        private LoaiDichVu loaiDichVu;
+        private string loaiDichVu;
         private double giaThanh;
-        List<DichVuDiKemDTO> dichVuDiKem; 
     
         public string MaDichVu
         {
@@ -50,23 +49,30 @@ namespace DTO_SPA
             } 
         }
 
-        internal List<DichVuDiKemDTO> DichVuDiKem { get => dichVuDiKem; set => dichVuDiKem = value; }
-        public LoaiDichVu LoaiDichVu { get => loaiDichVu; set => loaiDichVu = value; }
+        public string LoaiDichVu
+        {
+            get => loaiDichVu;
+            set
+            {
+                if ((!(string.IsNullOrEmpty(value)) && string.IsNullOrWhiteSpace(value)) && 
+                    (value == "Chăm sóc sức đẹp" || value == "Chăm sóc body" || value == "Dưỡng sinh"))
+                    LoaiDichVu = value;
+                else loaiDichVu = "Chăm sóc sức đẹp";
+            }
+        }
         #endregion
 
         #region Methods
         public DichVuDTO()
         {
-            DichVuDiKem = new List<DichVuDiKemDTO>();
         }
 
-        public DichVuDTO(string madv, string tendv, LoaiDichVu loaidv, double giathanh, List<DichVuDiKemDTO> list)
+        public DichVuDTO(string madv, string tendv, string loaidv, double giathanh)
         {
             MaDichVu = madv;
             TenDichVu = tendv;
             LoaiDichVu = loaidv;
             GiaThanh = giathanh;
-            DichVuDiKem = list;
         }
 
         public DichVuDTO(DichVuDTO dv)
@@ -75,10 +81,9 @@ namespace DTO_SPA
             TenDichVu = dv.TenDichVu;
             LoaiDichVu = dv.LoaiDichVu;
             GiaThanh = dv.GiaThanh;
-            DichVuDiKem = dv.DichVuDiKem;
         }
 
-        public void nhapDichVu()
+        public virtual void nhapDichVu()
         {
             Console.Write("Nhập mã dịch vụ: ");
             MaDichVu = Console.ReadLine();
@@ -91,33 +96,25 @@ namespace DTO_SPA
                 lc = int.Parse(Console.ReadLine());
                 if (lc == 1)
                 {
-                    LoaiDichVu = LoaiDichVu.Cham_Soc_Suc_Dep;
+                    LoaiDichVu = "Chăm sóc sức đẹp";
                 }
                 else if (lc == 2)
                 {
-                    LoaiDichVu = LoaiDichVu.Cham_Soc_Body;
+                    LoaiDichVu = "Chăm sóc body";
                 }
                 else if (lc == 3)
                 {
-                    LoaiDichVu = LoaiDichVu.Duong_Sinh;
+                    LoaiDichVu = "Dưỡng sinh";
                 }
                 if(lc < 1 || lc > 3)
                     Console.WriteLine("Chỉ nhận 1, 2, 3");
             } while (lc < 1 || lc > 3);
             Console.Write("Nhập giá thành: ");
             GiaThanh = double.Parse(Console.ReadLine());
-            Console.Write("Nhập số lượng dịch vụ đi kèm");
-            int sl = int.Parse(Console.ReadLine());
-            for(int i = 0; i < sl; i++)
-            {
-                Console.Write($"Nhập dịch vụ đi kèm thứ {(i + 1)}");
-                DichVuDiKemDTO dvdk = new DichVuDiKemDTO();
-                dvdk.nhapDichVuDiKem();
-            }
         }
-        public void xuatDichVu()
+        public virtual void xuatDichVu()
         {
-            Console.WriteLine($"Mã dịch vụ: {MaDichVu}\nTên dịch vụ: {TenDichVu}\nLoại dịch vụ: {LoaiDichVu}\n");
+            Console.WriteLine($"Mã dịch vụ: {MaDichVu}\nTên dịch vụ: {TenDichVu}\nLoại dịch vụ: {LoaiDichVu}\nGiá thành: {GiaThanh}");
         }
         #endregion
     }

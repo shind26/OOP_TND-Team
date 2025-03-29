@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace DTO_SPA
 {
-    internal class DichVuDiKemDTO
+    public class DichVuDiKemDTO
     {
+
         #region Attributes
         private string maDichVu;
         private string tenDichVu;
-        private double giaThanh;
         #endregion
         public string MaDichVu
         {
@@ -32,31 +32,20 @@ namespace DTO_SPA
             get => tenDichVu;
             set
             {
-                if (!(string.IsNullOrEmpty(value)) && string.IsNullOrWhiteSpace(value))
+                if (!(string.IsNullOrEmpty(value) && !(string.IsNullOrWhiteSpace(value))))
                     tenDichVu = value;
             }
         }
 
-        public double GiaThanh
-        {
-            get => giaThanh;
-            set
-            {
-                if (value > 0)
-                    giaThanh = value;
-                else value = 20000;
-            }
-        }
         public DichVuDiKemDTO()
         {
             
         }
 
-        public DichVuDiKemDTO(string ma, string ten, double gia)
+        public DichVuDiKemDTO(string ma, string ten)
         {
             MaDichVu = ma;
             TenDichVu = ten;
-            GiaThanh = gia;
         }
         public void nhapDichVuDiKem()
         {
@@ -64,8 +53,10 @@ namespace DTO_SPA
             MaDichVu = Console.ReadLine();
             Console.Write("Nhập tên dịch vụ: ");
             TenDichVu = Console.ReadLine();
-            Console.Write("Nhập giá thành: ");
-            GiaThanh = double.Parse(Console.ReadLine());
         }
-       }
+        public void xuatDichVuDiKem()
+        {
+            Console.WriteLine($"Mã dịch vụ: {MaDichVu}\nTên dịch vụ: {TenDichVu}");
+        }
+     }
 }

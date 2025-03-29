@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace DTO_SPA
 {
-    class ChamSocBodyDTO:DichVuDTO
+    public class ChamSocBodyDTO:DichVuDTO
     {
+        List<DichVuDiKemDTO> dichVuDiKem;
     }
 }
