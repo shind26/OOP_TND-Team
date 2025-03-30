@@ -15,7 +15,7 @@ namespace DTO_SPA
             
         }
 
-        public ChamSocBodyDTO(string ma, string ten, double gia):base(ma, ten, "Chăm sóc body", gia)
+        public ChamSocBodyDTO(string ma, string ten, double gia):base(ma, ten, "Chăm sóc Body", gia)
         {
             
         }

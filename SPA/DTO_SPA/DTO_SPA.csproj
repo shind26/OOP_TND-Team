@@ -42,10 +42,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ChamSocBodyDTO.cs" />
-    <Compile Include="ChamSocSucDepDTO.cs" />
+    <Compile Include="ChamSocSacDepDTO.cs" />
     <Compile Include="DichVuDiKemDTO.cs" />
     <Compile Include="DichVuDTO.cs" />
     <Compile Include="DuongSinhDTO.cs" />
+    <Compile Include="KhachHangDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

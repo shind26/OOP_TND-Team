@@ -14,6 +14,8 @@ namespace GUI_SPA
         {
             DichVuGUI dichVuGUI = new DichVuGUI();
             dichVuGUI.showList();
+            KhachHangGUI khachHangGUI = new KhachHangGUI();
+            khachHangGUI.showList();
         }
     }
 }

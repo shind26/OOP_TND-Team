@@ -24,7 +24,7 @@ namespace DTO_SPA
             }
             set
             {
-                if (!(string.IsNullOrEmpty(value)) && string.IsNullOrWhiteSpace(value))
+                if (!(string.IsNullOrEmpty(value)) && !(string.IsNullOrWhiteSpace(value)))
                     maDichVu = value;
                 else maDichVu = "DV000";
             }
@@ -33,7 +33,7 @@ namespace DTO_SPA
         public string TenDichVu { get => tenDichVu;
             set 
             {
-                if (!(string.IsNullOrEmpty(value)) && string.IsNullOrWhiteSpace(value))
+                if (!(string.IsNullOrEmpty(value)) && !(string.IsNullOrWhiteSpace(value)))
                     tenDichVu = value;
                 else tenDichVu = "Cạo lông mày";
             } 
@@ -55,10 +55,10 @@ namespace DTO_SPA
             get => loaiDichVu;
             set
             {
-                if ((!(string.IsNullOrEmpty(value)) && string.IsNullOrWhiteSpace(value)) && 
-                    (value == "Chăm sóc sức đẹp" || value == "Chăm sóc Body" || value == "Dưỡng sinh"))
-                    LoaiDichVu = value;
-                else loaiDichVu = "Chăm sóc sức đẹp";
+                if ((!(string.IsNullOrEmpty(value)) && (!(string.IsNullOrWhiteSpace(value))) && 
+                    (value == "Chăm sóc sắc đẹp" || value == "Chăm sóc Body" || value == "Dưỡng sinh")))
+                    loaiDichVu = value;
+                else loaiDichVu = "Chăm sóc sắc đẹp";
             }
         }
 

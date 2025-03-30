@@ -35,8 +35,8 @@ namespace DAL_SPA
                 DichVuDTO dv = new DichVuDTO();
                 switch (loaiDichVu)
                 {
-                    case "Chăm sóc sức đẹp":
-                        dv = new ChamSocSucDepDTO(maDichVu, tenDichVu, giaThanh);
+                    case "Chăm sóc sắc đẹp":
+                        dv = new ChamSocSacDepDTO(maDichVu, tenDichVu, giaThanh);
                         break;
                     case "Chăm sóc Body":
                         dv = new ChamSocBodyDTO(maDichVu, tenDichVu, giaThanh);
@@ -61,5 +61,10 @@ namespace DAL_SPA
             return listDichVu;
         }
 
+        public void xuatDanhSachDichVu()
+        {
+            foreach (DichVuDTO dichVu in ListDichVu)
+                dichVu.xuatDichVu();
+        }
     }
 }

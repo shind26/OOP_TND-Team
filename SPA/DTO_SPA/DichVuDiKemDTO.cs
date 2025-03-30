@@ -21,7 +21,7 @@ namespace DTO_SPA
             }
             set
             {
-                if (!(string.IsNullOrEmpty(value)) && string.IsNullOrWhiteSpace(value))
+                if (!(string.IsNullOrEmpty(value)) && !(string.IsNullOrWhiteSpace(value)))
                     maDichVu = value;
                 else maDichVu = "DVDK000";
             }
