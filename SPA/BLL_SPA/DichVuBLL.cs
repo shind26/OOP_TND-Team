@@ -9,7 +9,7 @@ using DTO_SPA;
 
 namespace BLL_SPA
 {
-    public class DichVuBLL
+    public class DichVuBLL:ICapNhatGia
     {
         private DichVuDAL dichVuDAL;
 
@@ -31,15 +31,15 @@ namespace BLL_SPA
 
         public void xuatDichVuGiaTren500()
         {
-            var dsDichVuGiaCao = DichVuDAL.ListDichVu.Where(dv => dv.GiaThanh > 500).ToList();
+            List<DichVuDTO> dsDichVuGiaCao = DichVuDAL.ListDichVu.Where(dv => dv.GiaThanh > 500000).ToList();
 
             if (dsDichVuGiaCao.Count == 0)
             {
-                Console.WriteLine("Không có dịch vụ nào có giá trên 500");
+                Console.WriteLine("Không có dịch vụ nào có giá trên 500000");
                 return;
             }
 
-            foreach (var dichVu in dsDichVuGiaCao)
+            foreach (DichVuDTO dichVu in dsDichVuGiaCao)
                 dichVu.xuatDichVu();
         }
 
@@ -74,6 +74,32 @@ namespace BLL_SPA
             if (count == 0)
             {
                 Console.WriteLine("Không có dịch vụ dưỡng sinh trong danh sách");
+            }
+        }
+
+        public void giamGia(List<DichVuDTO> listDSDV)
+        {
+            foreach(var dv in listDSDV)
+            {
+                if(dv.LoaiDichVu == "Dưỡng sinh" || dv is DuongSinhDTO)
+                {
+                    dv.GiaThanh *= 0.9;
+                }
+                else if(dv.LoaiDichVu == "Chăm sóc Body" || dv is ChamSocBodyDTO)
+                {
+                    dv.GiaThanh *= 0.93;
+                }  
+            }
+        }
+
+        public void tangGia(List<DichVuDTO> danhSachDichVu)
+        {
+            foreach(var dv in danhSachDichVu)
+            {
+                if(dv.LoaiDichVu == "Chăm sóc sắc đẹp" || dv is ChamSocSacDepDTO)
+                {
+                    dv.GiaThanh *= 1.03;
+                }
             }
         }
     }

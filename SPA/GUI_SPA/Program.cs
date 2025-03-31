@@ -13,9 +13,23 @@ namespace GUI_SPA
         static void Main(string[] args)
         {
             DichVuGUI dichVuGUI = new DichVuGUI();
-            dichVuGUI.showList();
+            //Console.WriteLine("DANH SÁCH DỊCH VỤ");
+            //dichVuGUI.showList();
+            //Console.WriteLine("DANH SÁCH SAU KHI CẬP NHẬT GIÁ");
+            //dichVuGUI.showListAfterDiscount();
+            //dichVuGUI.xuatDVGiaTren500();
+            //dichVuGUI.xuatDVChamSocSacDep();
+            //Console.WriteLine();
+            //Console.Write("Nhập tên dịch vụ cần tìm: ");
+            //string tenDV = Console.ReadLine();
+            //Console.WriteLine($"Dịch vụ có tên {tenDV}: ");
+            //dichVuGUI.xuatDVTimTheoTen(tenDV);
             KhachHangGUI khachHangGUI = new KhachHangGUI();
             khachHangGUI.showList();
+            //khachHangGUI.xuatDVTheoTenKH();
+            Console.WriteLine("DANH SÁCH KHÁCH HÀNG NHIỀU HƠN 3 DỊCH VỤ");
+            khachHangGUI.xuatDSKHNhieuHon3DV();
+            Console.ReadKey();
         }
     }
 }

@@ -14,7 +14,6 @@ namespace DTO_SPA
         public DuongSinhDTO(string ma, string ten, double gia):base(ma, ten, "Dưỡng sinh", gia)
         {
         }
-        
 
     }
 }

@@ -29,5 +29,14 @@ namespace GUI_SPA
                 Console.WriteLine();
             }
         }
+
+        public void xuatDVTheoTenKH()
+        {
+            khachHangBLL.xuatDSDV_TenKhachHang("Trương Ích Thái Duy");
+        }
+        public void xuatDSKHNhieuHon3DV()
+        {
+            khachHangBLL.xuatDSKH_NhieuDichVu();
+        }
     }
 }

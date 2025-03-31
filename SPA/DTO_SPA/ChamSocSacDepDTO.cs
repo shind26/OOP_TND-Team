@@ -17,5 +17,9 @@ namespace DTO_SPA
         {
             
         }
+        public double capNhatKinhPhi(double phantram)
+        {
+            return (phantram * GiaThanh) + GiaThanh;
+        }
     }
 }

@@ -10,13 +10,11 @@ namespace DAL_SPA
 {
     public class DichVuDAL
     {
-        List<DichVuDTO> listDichVu;
+        public static List<DichVuDTO> ListDichVu = new List<DichVuDTO>();
 
-
-        public List<DichVuDTO> ListDichVu { get => listDichVu; set => listDichVu = value; }
         public DichVuDAL()
         {
-            ListDichVu = new List<DichVuDTO>();
+            DichVuDAL.ListDichVu = docFile(@"../../../DAL_SPA/Data/DSDichVu.xml");
         }
 
         public List<DichVuDTO> docFile(string path)

@@ -61,12 +61,8 @@ namespace DTO_SPA
             Console.WriteLine("DANH SÁCH DỊCH VỤ SỬ DỤNG");
             foreach(DichVuDTO d in DanhSachDichVu)
             {
+                Console.WriteLine($"DỊCH VỤ THỨ {(DanhSachDichVu.IndexOf(d) + 1)}");
                 d.xuatDichVu();
-                Console.WriteLine("DANH SÁCH DỊCH VỤ ĐI KÈM");
-                foreach(DichVuDiKemDTO dvdk in d.DsDVDiKem)
-                {
-                    dvdk.xuatDichVuDiKem();
-                }
             }
         }
     }

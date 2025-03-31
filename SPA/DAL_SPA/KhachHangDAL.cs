@@ -11,13 +11,11 @@ namespace DAL_SPA
 {
     public class KhachHangDAL
     {
-        List<KhachHangDTO> listKhachHang;
+        public static List<KhachHangDTO> ListKhachHang = new List<KhachHangDTO>();
 
-
-        public List<KhachHangDTO> ListKhachHang { get => listKhachHang; set => listKhachHang = value; }
         public KhachHangDAL()
         {
-            ListKhachHang = new List<KhachHangDTO>();
+            KhachHangDAL.ListKhachHang = docFile(@"../../../DAL_SPA/Data/DSKhachHang.xml");
         }
 
         public List<KhachHangDTO> docFile(string path)
