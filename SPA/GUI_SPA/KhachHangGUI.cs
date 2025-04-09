@@ -28,9 +28,8 @@ namespace GUI_SPA
             foreach (var kh in khachHangDTOs)
             {
 
-                AnsiConsole.MarkupLine($"[bold yellow]KHÁCH HÀNG: {Markup.Escape(kh.TenKhachHang)}[/]");
-                AnsiConsole.MarkupLine($"Mã: [blue]{Markup.Escape(kh.MaKhachHang)}[/] | SĐT: [green]{Markup.Escape(kh.SoDienThoai)}[/]\n");
-
+                AnsiConsole.MarkupLine($"[bold yellow]KHÁCH HÀNG: {kh.TenKhachHang}[/]");
+                AnsiConsole.MarkupLine($"Mã: [blue]{kh.MaKhachHang}[/] | SĐT: [green]{kh.SoDienThoai}[/]\n");
 
 
                 var table = new Table();
@@ -66,9 +65,9 @@ namespace GUI_SPA
             }
         }
 
-        public void xuatDVTheoTenKH(string tenKH)
+        public void xuatDVTheoTenKH()
         {
-            khachHangBLL.xuatDSDV_TenKhachHang(tenKH);
+            khachHangBLL.xuatDSDV_TenKhachHang("Trương Ích Thái Duy");
         }
         public void xuatDSKHNhieuHon3DV()
         {

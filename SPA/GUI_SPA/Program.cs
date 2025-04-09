@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using BLL_SPA;
+using DTO_SPA;
 
 namespace GUI_SPA
 {
@@ -10,8 +12,6 @@ namespace GUI_SPA
     {
         static void Main(string[] args)
         {
-<<<<<<< Updated upstream
-=======
             Console.InputEncoding = Encoding.Unicode;
             Console.OutputEncoding = Encoding.Unicode;
 
@@ -24,6 +24,8 @@ namespace GUI_SPA
             ////dichVuGUI.xuatDVGiaTren500();
             ////dichVuGUI.xuatDVChamSocSacDep();
             ////Console.WriteLine();
+            ////Console.Write("Nhập tên dịch vụ cần tìm: ");
+            ////string tenDV = Console.ReadLine();
             ////Console.WriteLine($"Dịch vụ có tên {tenDV}: ");
             ////dichVuGUI.xuatDVTimTheoTen(tenDV);
             //KhachHangGUI khachHangGUI = new KhachHangGUI();
@@ -32,7 +34,6 @@ namespace GUI_SPA
             //Console.WriteLine("DANH SÁCH KHÁCH HÀNG NHIỀU HƠN 3 DỊCH VỤ");
             //khachHangGUI.xuatDSKHNhieuHon3DV();
             //Console.ReadKey();
->>>>>>> Stashed changes
         }
     }
 }

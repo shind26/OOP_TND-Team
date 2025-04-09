@@ -144,7 +144,7 @@ namespace DTO_SPA
 
             if (DsDVDiKem.Count > 0)
             {
-                Console.WriteLine("\n[b]Dịch Vụ Đi Kèm:[/]\n");
+                Console.WriteLine("\nDịch Vụ Đi Kèm\n");
 
                 var subTable = new Table();
                 subTable.AddColumn("[yellow]STT[/]");

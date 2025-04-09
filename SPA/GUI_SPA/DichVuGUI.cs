@@ -72,6 +72,7 @@ namespace GUI_SPA
 
         public void xuatDVTimTheoTen(string tenDV)
         {
+           
             List<DichVuDTO> listDV = dichVuBLL.timDichVuTheoTen(tenDV);
             foreach (DichVuDTO dichVu in listDV)
                 dichVu.xuatDichVu();

@@ -59,12 +59,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< Updated upstream
-=======
     <Compile Include="DichVuGUI.cs" />
     <Compile Include="KhachHangGUI.cs" />
     <Compile Include="MenuGUI.cs" />
->>>>>>> Stashed changes
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

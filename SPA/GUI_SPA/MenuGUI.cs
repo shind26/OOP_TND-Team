@@ -14,26 +14,30 @@ namespace GUI_SPA
             DichVuGUI dichVuGUI = new DichVuGUI();
             KhachHangGUI khachHangGUI = new KhachHangGUI();
             DichVuBLL dichVuBLL = new DichVuBLL();
+            KhachHangBLL khachHangBLL = new KhachHangBLL();
 
             while (true)
             {
                 Console.Clear();
                 Console.OutputEncoding = Encoding.UTF8;
 
-                
+
                 var table = new Table();
                 table.AddColumn("[bold yellow]MÃ[/]");
                 table.AddColumn("[bold green]CHỨC NĂNG[/]");
+
                 table.AddRow("[bold]0[/]", "Thoát chương trình");
-                table.AddRow("[bold]1[/]", "Xuất danh sách dịch vụ và khách hàng. ");
-                table.AddRow("[bold]2[/]", "Thêm dịch vụ mới. ");
-                table.AddRow("[bold]3[/]", "Tìm kiếm dịch vụ khi biết tên. ");
-                table.AddRow("[bold]4[/]", "Xuất danh sách các dịch vụ khi biết tên khách hàng. ");
-                table.AddRow("[bold]5[/]", "Cập nhật kinh phí các dịch vụ chăm sóc sắc đẹp tăng lên 3 %. ");
-                table.AddRow("[bold]6[/]", "Xuất danh sách các dịch vụ có giá thành trên 500. ");
-                table.AddRow("[bold]7[/]", "Xuất danh sách các dịch vụ thuộc dịch vụ chăm sóc sắc đẹp. ");
-                table.AddRow("[bold]8[/]", "In ra danh sách các khách hàng đã thực hiện nhiều hơn 3 dịch vụ.  ");
-                table.AddRow("[bold]9[/]", "In ra danh sách dịch vụ dưỡng sinh.   ");
+                table.AddRow("[bold]1[/]", "Xuất danh sách dịch vụ và khách hàng.");
+                table.AddRow("[bold]2[/]", "Thêm dịch vụ mới.");
+                table.AddRow("[bold]3[/]", "Thêm khách hàng mới.");
+                table.AddRow("[bold]4[/]", "Tìm kiếm dịch vụ khi biết tên.");
+                table.AddRow("[bold]5[/]", "Xuất danh sách các dịch vụ khi biết tên khách hàng.");
+                table.AddRow("[bold]6[/]", "Cập nhật kinh phí các dịch vụ chăm sóc sắc đẹp tăng lên 3 %.");
+                table.AddRow("[bold]7[/]", "Xuất danh sách các dịch vụ có giá thành trên 500.");
+                table.AddRow("[bold]8[/]", "Xuất danh sách các dịch vụ thuộc dịch vụ chăm sóc sắc đẹp.");
+                table.AddRow("[bold]9[/]", "In ra danh sách các khách hàng đã thực hiện nhiều hơn 3 dịch vụ.");
+                table.AddRow("[bold]10[/]", "In ra danh sách dịch vụ dưỡng sinh.");
+
 
 
 
@@ -51,6 +55,7 @@ namespace GUI_SPA
                         return;
 
                     case "1":
+                        Console.Clear();
                         dichVuGUI.showList();
                         Console.WriteLine();
                         khachHangGUI.showList();
@@ -59,6 +64,7 @@ namespace GUI_SPA
                         break;
 
                     case "2":
+                        Console.Clear();
                         DichVuDTO newDichVu = new DichVuDTO();
                         newDichVu.nhapDichVu(); 
                         dichVuBLL.addDichVuBLL(newDichVu);
@@ -68,6 +74,17 @@ namespace GUI_SPA
                         break;
 
                     case "3":
+                        Console.Clear();
+                        KhachHangDTO newKhachHang = new KhachHangDTO();
+                        newKhachHang.nhapKhachHang();
+                        khachHangBLL.addKhachHangBLL(newKhachHang);
+                        Console.WriteLine("\nKhách hàng đã được thêm thành công!");
+                        Console.WriteLine("\nNhấn Enter để quay lại menu...");
+                        Console.ReadLine();
+                        break;
+
+                    case "4":
+                        Console.Clear();
                         Console.Write("Nhập tên dịch vụ cần tìm: ");
                         string tenDV = Console.ReadLine();
                         Console.WriteLine($"Dịch vụ có tên {tenDV}: ");
@@ -76,16 +93,14 @@ namespace GUI_SPA
                         Console.ReadLine();
                         break;
 
-                    case "4":
+                    case "5":
                         khachHangGUI.showList();
-                        Console.Write("Nhập tên khách hàng: ");
-                        string tenKH = Console.ReadLine();
-                        khachHangGUI.xuatDVTheoTenKH(tenKH);
+                        khachHangGUI.xuatDVTheoTenKH();
                         Console.WriteLine("\nNhấn Enter để quay lại menu...");
                         Console.ReadLine();
                         break;
 
-                    case "5":
+                    case "6":
                         
                         dichVuGUI.showList();
                         Console.WriteLine("DANH SÁCH SAU KHI CẬP NHẬT GIÁ");
@@ -94,28 +109,28 @@ namespace GUI_SPA
                         Console.ReadLine();
                         break;
 
-                    case "6":
+                    case "7":
                         Console.WriteLine("DANH SÁCH DỊCH VỤ GIÁ TRÊN 500.000VNĐ");
                         dichVuGUI.xuatDVGiaTren500();
                         Console.WriteLine("\nNhấn Enter để quay lại menu...");
                         Console.ReadLine();
                         break;
 
-                    case "7":
+                    case "8":
                         Console.WriteLine("DANH SÁCH DỊCH VỤ CHĂM SÓC SẮC ĐẸP");
                         dichVuGUI.xuatDVChamSocSacDep();
                         Console.WriteLine("\nNhấn Enter để quay lại menu...");
                         Console.ReadLine();
                         break;
 
-                    case "8":
+                    case "9":
                         Console.WriteLine("DANH SÁCH KHÁCH HÀNG NHIỀU HƠN 3 DỊCH VỤ");
                         khachHangGUI.xuatDSKHNhieuHon3DV();
                         Console.WriteLine("\nNhấn Enter để quay lại menu...");
                         Console.ReadLine();
                         break;
 
-                    case "9":
+                    case "10":
                         Console.WriteLine("DANH SÁCH DỊCH VỤ DƯỠNG SINH");
                         dichVuGUI.xuatDVDuongSinh();
                         Console.WriteLine("\nNhấn Enter để quay lại menu...");

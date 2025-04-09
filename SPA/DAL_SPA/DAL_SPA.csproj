@@ -42,7 +42,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DichVuDAL.cs" />
+    <Compile Include="KhachHangDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\DSDichVu.xml" />
+    <Content Include="Data\DSKhachHang.xml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DTO_SPA\DTO_SPA.csproj">

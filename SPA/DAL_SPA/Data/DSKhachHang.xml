@@ -1,2 +1,333 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
- 
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DSKhachHang>
+  <KhachHang>
+    <MaKhachHang>KH001</MaKhachHang>
+    <TenKhachHang>Đặng Anh Thịnh</TenKhachHang>
+    <SoDienThoai>0523456739</SoDienThoai>
+    <DSDichVuThucHien>
+      <DichVu>
+        <MaDichVu>DV001</MaDichVu>
+        <TenDichVu>Chăm sóc da mặt</TenDichVu>
+        <LoaiDichVu>Chăm sóc sắc đẹp</LoaiDichVu>
+        <GiaThanh>400000</GiaThanh>
+        <DSDichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DVDK001</MaDichVu>
+            <TenDichVu>Đắp mặt nạ</TenDichVu>
+          </DichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DVDK002</MaDichVu>
+            <TenDichVu>Xông hơi bằng tinh dầu</TenDichVu>
+          </DichVuDiKem>
+        </DSDichVuDiKem>
+      </DichVu>
+      <DichVu>
+        <MaDichVu>DV009</MaDichVu>
+        <TenDichVu>Liệu pháp giác hơi</TenDichVu>
+        <LoaiDichVu>Dưỡng sinh</LoaiDichVu>
+        <GiaThanh>350000</GiaThanh>
+        <DSDichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DVDK018</MaDichVu>
+            <TenDichVu>Giải độc khí huyết</TenDichVu>
+          </DichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DVDK019</MaDichVu>
+            <TenDichVu>Massage chân</TenDichVu>
+          </DichVuDiKem>
+        </DSDichVuDiKem>
+      </DichVu>
+      <DichVu>
+        <MaDichVu>DV008</MaDichVu>
+        <TenDichVu>Massage đá nóng</TenDichVu>
+        <LoaiDichVu>Chăm sóc Body</LoaiDichVu>
+        <GiaThanh>600000</GiaThanh>
+        <DSDichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DVDK016</MaDichVu>
+            <TenDichVu>Thải độc cơ thể</TenDichVu>
+          </DichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DVDK017</MaDichVu>
+            <TenDichVu>Massage thư giãn sâu</TenDichVu>
+          </DichVuDiKem>
+        </DSDichVuDiKem>
+      </DichVu>
+      <DichVu>
+        <MaDichVu>DV006</MaDichVu>
+        <TenDichVu>Tắm trắng toàn thân</TenDichVu>
+        <LoaiDichVu>Chăm sóc Body</LoaiDichVu>
+        <GiaThanh>1200000</GiaThanh>
+        <DSDichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DVDK012</MaDichVu>
+            <TenDichVu>Ủ dưỡng trắng</TenDichVu>
+          </DichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DVDK013</MaDichVu>
+            <TenDichVu>Tẩy tế bào chết toàn thân</TenDichVu>
+          </DichVuDiKem>
+        </DSDichVuDiKem>
+      </DichVu>
+    </DSDichVuThucHien>
+  </KhachHang>
+  <KhachHang>
+    <MaKhachHang>KH002</MaKhachHang>
+    <TenKhachHang>Trương Ích Thái Duy</TenKhachHang>
+    <SoDienThoai>0235567909</SoDienThoai>
+    <DSDichVuThucHien>
+      <DichVu>
+        <MaDichVu>DV008</MaDichVu>
+        <TenDichVu>Massage đá nóng</TenDichVu>
+        <LoaiDichVu>Chăm sóc Body</LoaiDichVu>
+        <GiaThanh>600000</GiaThanh>
+        <DSDichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DVDK016</MaDichVu>
+            <TenDichVu>Thải độc cơ thể</TenDichVu>
+          </DichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DVDK017</MaDichVu>
+            <TenDichVu>Massage thư giãn sâu</TenDichVu>
+          </DichVuDiKem>
+        </DSDichVuDiKem>
+      </DichVu>
+      <DichVu>
+        <MaDichVu>DV001</MaDichVu>
+        <TenDichVu>Chăm sóc da mặt</TenDichVu>
+        <LoaiDichVu>Chăm sóc sắc đẹp</LoaiDichVu>
+        <GiaThanh>400000</GiaThanh>
+        <DSDichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DVDK001</MaDichVu>
+            <TenDichVu>Đắp mặt nạ</TenDichVu>
+          </DichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DVDK002</MaDichVu>
+            <TenDichVu>Xông hơi bằng tinh dầu</TenDichVu>
+          </DichVuDiKem>
+        </DSDichVuDiKem>
+      </DichVu>
+    </DSDichVuThucHien>
+  </KhachHang>
+  <KhachHang>
+    <MaKhachHang>KH003</MaKhachHang>
+    <TenKhachHang>Nguyễn Thành Nhân</TenKhachHang>
+    <SoDienThoai>0387567201</SoDienThoai>
+    <DSDichVuThucHien>
+      <DichVu>
+        <MaDichVu>DV002</MaDichVu>
+        <TenDichVu>Massage thư giãn</TenDichVu>
+        <LoaiDichVu>Chăm sóc Body</LoaiDichVu>
+        <GiaThanh>200000</GiaThanh>
+        <DSDichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DVDK003</MaDichVu>
+            <TenDichVu>Tẩy tế bào chết</TenDichVu>
+          </DichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DVDK004</MaDichVu>
+            <TenDichVu>Xông hơi</TenDichVu>
+          </DichVuDiKem>
+        </DSDichVuDiKem>
+      </DichVu>
+      <DichVu>
+        <MaDichVu>DV003</MaDichVu>
+        <TenDichVu>Liệu pháp dưỡng sinh</TenDichVu>
+        <LoaiDichVu>Dưỡng sinh</LoaiDichVu>
+        <GiaThanh>400000</GiaThanh>
+        <DSDichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DVDK005</MaDichVu>
+            <TenDichVu>Trị liệu đông y</TenDichVu>
+          </DichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DVDK006</MaDichVu>
+            <TenDichVu>Bấm huyệt trị liệu</TenDichVu>
+          </DichVuDiKem>
+        </DSDichVuDiKem>
+      </DichVu>
+    </DSDichVuThucHien>
+  </KhachHang>
+  <KhachHang>
+    <MaKhachHang>KH001</MaKhachHang>
+    <TenKhachHang>Đặng Anh Thịnh</TenKhachHang>
+    <SoDienThoai>0523456739</SoDienThoai>
+    <DSDichVuThucHien>
+      <DichVu>
+        <MaDichVu>DV001</MaDichVu>
+        <TenDichVu>Chăm sóc da mặt</TenDichVu>
+        <LoaiDichVu>Chăm sóc sắc đẹp</LoaiDichVu>
+        <GiaThanh>400000</GiaThanh>
+        <DSDichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DV001</MaDichVu>
+            <TenDichVu>Chăm sóc da mặt</TenDichVu>
+          </DichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DV009</MaDichVu>
+            <TenDichVu>Liệu pháp giác hơi</TenDichVu>
+          </DichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DV008</MaDichVu>
+            <TenDichVu>Massage đá nóng</TenDichVu>
+          </DichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DV006</MaDichVu>
+            <TenDichVu>Tắm trắng toàn thân</TenDichVu>
+          </DichVuDiKem>
+        </DSDichVuDiKem>
+      </DichVu>
+      <DichVu>
+        <MaDichVu>DV009</MaDichVu>
+        <TenDichVu>Liệu pháp giác hơi</TenDichVu>
+        <LoaiDichVu>Dưỡng sinh</LoaiDichVu>
+        <GiaThanh>350000</GiaThanh>
+        <DSDichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DV001</MaDichVu>
+            <TenDichVu>Chăm sóc da mặt</TenDichVu>
+          </DichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DV009</MaDichVu>
+            <TenDichVu>Liệu pháp giác hơi</TenDichVu>
+          </DichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DV008</MaDichVu>
+            <TenDichVu>Massage đá nóng</TenDichVu>
+          </DichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DV006</MaDichVu>
+            <TenDichVu>Tắm trắng toàn thân</TenDichVu>
+          </DichVuDiKem>
+        </DSDichVuDiKem>
+      </DichVu>
+      <DichVu>
+        <MaDichVu>DV008</MaDichVu>
+        <TenDichVu>Massage đá nóng</TenDichVu>
+        <LoaiDichVu>Chăm sóc Body</LoaiDichVu>
+        <GiaThanh>600000</GiaThanh>
+        <DSDichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DV001</MaDichVu>
+            <TenDichVu>Chăm sóc da mặt</TenDichVu>
+          </DichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DV009</MaDichVu>
+            <TenDichVu>Liệu pháp giác hơi</TenDichVu>
+          </DichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DV008</MaDichVu>
+            <TenDichVu>Massage đá nóng</TenDichVu>
+          </DichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DV006</MaDichVu>
+            <TenDichVu>Tắm trắng toàn thân</TenDichVu>
+          </DichVuDiKem>
+        </DSDichVuDiKem>
+      </DichVu>
+      <DichVu>
+        <MaDichVu>DV006</MaDichVu>
+        <TenDichVu>Tắm trắng toàn thân</TenDichVu>
+        <LoaiDichVu>Chăm sóc Body</LoaiDichVu>
+        <GiaThanh>1200000</GiaThanh>
+        <DSDichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DV001</MaDichVu>
+            <TenDichVu>Chăm sóc da mặt</TenDichVu>
+          </DichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DV009</MaDichVu>
+            <TenDichVu>Liệu pháp giác hơi</TenDichVu>
+          </DichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DV008</MaDichVu>
+            <TenDichVu>Massage đá nóng</TenDichVu>
+          </DichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DV006</MaDichVu>
+            <TenDichVu>Tắm trắng toàn thân</TenDichVu>
+          </DichVuDiKem>
+        </DSDichVuDiKem>
+      </DichVu>
+    </DSDichVuThucHien>
+  </KhachHang>
+  <KhachHang>
+    <MaKhachHang>KH002</MaKhachHang>
+    <TenKhachHang>Trương Ích Thái Duy</TenKhachHang>
+    <SoDienThoai>0235567909</SoDienThoai>
+    <DSDichVuThucHien>
+      <DichVu>
+        <MaDichVu>DV008</MaDichVu>
+        <TenDichVu>Massage đá nóng</TenDichVu>
+        <LoaiDichVu>Chăm sóc Body</LoaiDichVu>
+        <GiaThanh>600000</GiaThanh>
+        <DSDichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DV008</MaDichVu>
+            <TenDichVu>Massage đá nóng</TenDichVu>
+          </DichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DV001</MaDichVu>
+            <TenDichVu>Chăm sóc da mặt</TenDichVu>
+          </DichVuDiKem>
+        </DSDichVuDiKem>
+      </DichVu>
+      <DichVu>
+        <MaDichVu>DV001</MaDichVu>
+        <TenDichVu>Chăm sóc da mặt</TenDichVu>
+        <LoaiDichVu>Chăm sóc sắc đẹp</LoaiDichVu>
+        <GiaThanh>400000</GiaThanh>
+        <DSDichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DV008</MaDichVu>
+            <TenDichVu>Massage đá nóng</TenDichVu>
+          </DichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DV001</MaDichVu>
+            <TenDichVu>Chăm sóc da mặt</TenDichVu>
+          </DichVuDiKem>
+        </DSDichVuDiKem>
+      </DichVu>
+    </DSDichVuThucHien>
+  </KhachHang>
+  <KhachHang>
+    <MaKhachHang>KH003</MaKhachHang>
+    <TenKhachHang>Nguyễn Thành Nhân</TenKhachHang>
+    <SoDienThoai>0387567201</SoDienThoai>
+    <DSDichVuThucHien>
+      <DichVu>
+        <MaDichVu>DV002</MaDichVu>
+        <TenDichVu>Massage thư giãn</TenDichVu>
+        <LoaiDichVu>Chăm sóc Body</LoaiDichVu>
+        <GiaThanh>200000</GiaThanh>
+        <DSDichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DV002</MaDichVu>
+            <TenDichVu>Massage thư giãn</TenDichVu>
+          </DichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DV003</MaDichVu>
+            <TenDichVu>Liệu pháp dưỡng sinh</TenDichVu>
+          </DichVuDiKem>
+        </DSDichVuDiKem>
+      </DichVu>
+      <DichVu>
+        <MaDichVu>DV003</MaDichVu>
+        <TenDichVu>Liệu pháp dưỡng sinh</TenDichVu>
+        <LoaiDichVu>Dưỡng sinh</LoaiDichVu>
+        <GiaThanh>400000</GiaThanh>
+        <DSDichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DV002</MaDichVu>
+            <TenDichVu>Massage thư giãn</TenDichVu>
+          </DichVuDiKem>
+          <DichVuDiKem>
+            <MaDichVu>DV003</MaDichVu>
+            <TenDichVu>Liệu pháp dưỡng sinh</TenDichVu>
+          </DichVuDiKem>
+        </DSDichVuDiKem>
+      </DichVu>
+    </DSDichVuThucHien>
+  </KhachHang>
+</DSKhachHang>

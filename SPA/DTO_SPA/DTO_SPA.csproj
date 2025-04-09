@@ -57,8 +57,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DichVu.cs" />
-    <Compile Include="KhachHang.cs" />
+    <Compile Include="ChamSocBodyDTO.cs" />
+    <Compile Include="ChamSocSacDepDTO.cs" />
+    <Compile Include="DichVuDiKemDTO.cs" />
+    <Compile Include="DichVuDTO.cs" />
+    <Compile Include="DuongSinhDTO.cs" />
+    <Compile Include="KhachHangDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
