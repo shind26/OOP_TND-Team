@@ -88,9 +88,9 @@ namespace BLL_SPA
             }
         }
 
-        public void giamGia(List<DichVuDTO> listDSDV)
+        public void giamGia(List<DichVuDTO> danhSachDichVu)
         {
-            foreach(var dv in listDSDV)
+            foreach(var dv in danhSachDichVu)
             {
                 if(dv.LoaiDichVu == "Dưỡng sinh" || dv is DuongSinhDTO)
                 {
@@ -101,6 +101,7 @@ namespace BLL_SPA
                     dv.GiaThanh *= 0.93;
                 }  
             }
+            dichVuDAL.capNhatGia(@"../../../DAL_SPA/Data/DSDichVu.xml", danhSachDichVu);
         }
 
         public void tangGia(List<DichVuDTO> danhSachDichVu)
@@ -112,6 +113,7 @@ namespace BLL_SPA
                     dv.GiaThanh *= 1.03;
                 }
             }
+            dichVuDAL.capNhatGia(@"../../../DAL_SPA/Data/DSDichVu.xml", danhSachDichVu);
         }
     }
 }

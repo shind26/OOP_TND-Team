@@ -111,7 +111,22 @@ namespace DAL_SPA
 
             xmlDoc.Save(f);
         }
-
+        public void capNhatGia(string f, List<DichVuDTO> dvMoi)
+        {
+            XmlDocument doc = new XmlDocument();
+            doc.Load(f);
+            XmlNodeList nodeList = doc.SelectNodes("DSDichVu/DichVu");
+            foreach (XmlNode node in nodeList)
+            {
+                foreach (DichVuDTO d in dvMoi) 
+                {
+                    string maDV = node["MaDichVu"].InnerText; //Lấy ra node mã dịch vụ trong file xml
+                    if (d.MaDichVu == maDV)
+                        node["GiaThanh"].InnerText = d.GiaThanh + "";
+                }
+            }
+            doc.Save(f);
+        }
     }
 }
 

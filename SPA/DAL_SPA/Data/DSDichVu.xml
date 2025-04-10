@@ -4,7 +4,7 @@
     <MaDichVu>DV001</MaDichVu>
     <TenDichVu>Chăm sóc da mặt</TenDichVu>
     <LoaiDichVu>Chăm sóc sắc đẹp</LoaiDichVu>
-    <GiaThanh>400000</GiaThanh>
+    <GiaThanh>412000</GiaThanh>
     <DSDichVuDiKem>
       <DichVuDiKem>
         <MaDichVu>DVDK001</MaDichVu>
@@ -20,7 +20,7 @@
     <MaDichVu>DV002</MaDichVu>
     <TenDichVu>Massage thư giãn</TenDichVu>
     <LoaiDichVu>Chăm sóc Body</LoaiDichVu>
-    <GiaThanh>200000</GiaThanh>
+    <GiaThanh>186000</GiaThanh>
     <DSDichVuDiKem>
       <DichVuDiKem>
         <MaDichVu>DVDK003</MaDichVu>
@@ -36,7 +36,7 @@
     <MaDichVu>DV003</MaDichVu>
     <TenDichVu>Liệu pháp dưỡng sinh</TenDichVu>
     <LoaiDichVu>Dưỡng sinh</LoaiDichVu>
-    <GiaThanh>600000</GiaThanh>
+    <GiaThanh>540000</GiaThanh>
     <DSDichVuDiKem>
       <DichVuDiKem>
         <MaDichVu>DVDK005</MaDichVu>
@@ -52,7 +52,7 @@
     <MaDichVu>DV004</MaDichVu>
     <TenDichVu>Nặn mụn da mặt</TenDichVu>
     <LoaiDichVu>Chăm sóc sắc đẹp</LoaiDichVu>
-    <GiaThanh>1500000</GiaThanh>
+    <GiaThanh>1545000</GiaThanh>
     <DSDichVuDiKem>
       <DichVuDiKem>
         <MaDichVu>DVDK007</MaDichVu>
@@ -72,7 +72,7 @@
     <MaDichVu>DV005</MaDichVu>
     <TenDichVu>Trẻ hóa làn da</TenDichVu>
     <LoaiDichVu>Chăm sóc sắc đẹp</LoaiDichVu>
-    <GiaThanh>800000</GiaThanh>
+    <GiaThanh>824000</GiaThanh>
     <DSDichVuDiKem>
       <DichVuDiKem>
         <MaDichVu>DVDK010</MaDichVu>
@@ -88,7 +88,7 @@
     <MaDichVu>DV006</MaDichVu>
     <TenDichVu>Tắm trắng toàn thân</TenDichVu>
     <LoaiDichVu>Chăm sóc Body</LoaiDichVu>
-    <GiaThanh>1200000</GiaThanh>
+    <GiaThanh>1116000</GiaThanh>
     <DSDichVuDiKem>
       <DichVuDiKem>
         <MaDichVu>DVDK012</MaDichVu>
@@ -104,7 +104,7 @@
     <MaDichVu>DV007</MaDichVu>
     <TenDichVu>Gội đầu dưỡng sinh</TenDichVu>
     <LoaiDichVu>Dưỡng sinh</LoaiDichVu>
-    <GiaThanh>250000</GiaThanh>
+    <GiaThanh>225000</GiaThanh>
     <DSDichVuDiKem>
       <DichVuDiKem>
         <MaDichVu>DVDK014</MaDichVu>
@@ -120,7 +120,7 @@
     <MaDichVu>DV008</MaDichVu>
     <TenDichVu>Massage đá nóng</TenDichVu>
     <LoaiDichVu>Chăm sóc Body</LoaiDichVu>
-    <GiaThanh>600000</GiaThanh>
+    <GiaThanh>558000</GiaThanh>
     <DSDichVuDiKem>
       <DichVuDiKem>
         <MaDichVu>DVDK016</MaDichVu>
@@ -136,7 +136,7 @@
     <MaDichVu>DV009</MaDichVu>
     <TenDichVu>Liệu pháp giác hơi</TenDichVu>
     <LoaiDichVu>Dưỡng sinh</LoaiDichVu>
-    <GiaThanh>350000</GiaThanh>
+    <GiaThanh>315000</GiaThanh>
     <DSDichVuDiKem>
       <DichVuDiKem>
         <MaDichVu>DVDK018</MaDichVu>
@@ -152,7 +152,7 @@
     <MaDichVu>DV011</MaDichVu>
     <TenDichVu>Ko biết</TenDichVu>
     <LoaiDichVu>Chăm sóc sắc đẹp</LoaiDichVu>
-    <GiaThanh>100000</GiaThanh>
+    <GiaThanh>103000</GiaThanh>
     <DSDichVuDiKem />
   </DichVu>
 </DSDichVu>
