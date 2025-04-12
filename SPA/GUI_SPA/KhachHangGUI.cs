@@ -65,9 +65,9 @@ namespace GUI_SPA
             }
         }
 
-        public void xuatDVTheoTenKH()
+        public void xuatDVTheoTenKH(string name)
         {
-            khachHangBLL.xuatDSDV_TenKhachHang("Trương Ích Thái Duy");
+            khachHangBLL.xuatDSDV_TenKhachHang(name);
         }
         public void xuatDSKHNhieuHon3DV()
         {

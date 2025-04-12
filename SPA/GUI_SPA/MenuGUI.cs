@@ -94,15 +94,16 @@ namespace GUI_SPA
                         break;
 
                     case "5":
-                        khachHangGUI.showList();
-                        khachHangGUI.xuatDVTheoTenKH();
+                        Console.Clear();
+                        Console.Write("Nhập tên khách hàng cần tìm: ");
+                        string tenKH = Console.ReadLine();
+                        Console.WriteLine($"Khách hàng có tên {tenKH}: ");
+                        khachHangGUI.xuatDVTheoTenKH(tenKH);
                         Console.WriteLine("\nNhấn Enter để quay lại menu...");
                         Console.ReadLine();
                         break;
 
                     case "6":
-                        
-                        dichVuGUI.showList();
                         Console.WriteLine("DANH SÁCH SAU KHI CẬP NHẬT GIÁ");
                         dichVuGUI.showListAfterDiscount();
                         Console.WriteLine("\nNhấn Enter để quay lại menu...");
